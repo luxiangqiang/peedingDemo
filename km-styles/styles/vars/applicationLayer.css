@@ -1,0 +1,146 @@
+/**
+ * 原子应用层
+ */
+
+:root {
+	/***** color *****/
+	--primary-color: var(--color-blue-1);
+	--secondary-color: var(--color-blue-2);
+	--third-color: var(--color-blue-3);
+	--error-color: var(--color-red-1);
+
+	/* text */
+	--text-color: var(--color-black-1);
+	--text-hover-color: var(--secondary-color);
+	--text-disabled-color: var(--color-black-3);
+	--text-error-color: var(--color-red-1);
+
+	/* button */
+	--btn-primary-color: var(--color-white);
+	--btn-primary-hover-color: var(--color-white);
+	--btn-primary-disabled-color: var(--text-disabled-color);
+	--btn-plain-color: var(--text-color);
+	--btn-plain-hover-color: var(--text-hover-color);
+	--btn-plain-disabled-color: var(--text-disabled-color);
+	--btn-text-color: var(--text-color);
+	--btn-text-hover-color: var(--text-hover-color);
+	--btn-text-disabled-color: var(--text-disabled-color);
+	--btn-link-color: var(--primary-color);
+	--btn-link-hover-color: var(--secondary-color);
+	--btn-link-disabled-color: var(--text-disabled-color);
+
+	/* tab */
+	--tab-color: var(--text-color);
+	--tab-hover-color: var(--secondary-color);
+	--tab-actived-color: var(--primary-color);
+	--tab-disabled-color: var(--text-disabled-color);
+
+	/* menu */
+	--menu-color: var(--text-color);
+	--menu-hover-color: var(--primary-color);
+	--menu-actived-color: var(--primary-color);
+	--menu-disabled-color: var(--text-disabled-color);
+
+
+	/***** bg-color *****/
+	/* body */
+	--body-bg-color: var(--color-white-1);
+	--common-bg-color: var(--color-white-1);
+
+	/* btn */
+	--btn-primary-bg-color: var(--primary-color);
+	--btn-primary-hover-bg-color: var(--secondary-color);
+	--btn-primary-disabled-bg-color: var(--color-white-1);
+	--btn-plain-disabled-bg-color: var(--color-white-1);
+	--btn-text-hover-bg-color: var(--color-black-5);
+	--btn-text-disabled-bg-color: var(--color-transparent);
+	--btn-link-bg-color: var(--color-transparent);
+	--btn-link-hover-bg-color: var(--color-transparent);
+	--btn-link-disabled-bg-color: var(--color-transparent);
+
+	/* tab */
+	--tab-card-bg-color: var(--color-white-2);
+	--tab-card-actived-bg-color: var(--color-white);
+
+	/* table */
+	--table-header-bg-color: var(--color-white-2);
+	--table-row-hover-bg-color: var(--third-color);
+	--table-row-striped-bg-color: var(--color-white-2);
+
+	/* select */
+	--select-hover-bg-color: var(--color-white-2);
+	--select-selected-bg-color: var(--third-color);
+
+	/* menu */
+	--menu-item-selected-bg-color: var(--third-color);
+
+	/* dialog */
+	--dialog-mask-bg-color: var(--color-black-4);
+
+
+	/***** border-color *****/
+	--border-color: var(--color-gray-1);
+	--border-hover-color: var(--secondary-color);
+	--border-disabled-color: var(--color-gray-1);
+	--border-error-color: var(--error-color);
+
+	/* btn */
+	--btn-primary-border-color: var(--primary-color);
+	--btn-primary-hover-border-color: var(--secondary-color);
+	--btn-primary-disabled-border-color: var(--border-color);
+	--btn-plain-border-color: var(--border-color);
+	--btn-plain-hover-border-color: var(--secondary-color);
+	--btn-plain-disabled-border-color: var(--border-color);
+	--btn-text-border-color: var(--color-transparent);
+	--btn-text-hover-border-color: var(--color-transparent);
+	--btn-text-disabled-border-color: var(--color-transparent);
+	--btn-link-border-color: var(--color-transparent);
+	--btn-link-hover-border-color: var(--color-transparent);
+	--btn-link-disabled-border-color: var(--color-transparent);
+
+
+	/***** box-shadow-color *****/
+	--box-shadow-color: var(--color-black-4);
+
+	/* input */
+	--input-focus-box-shadow-color: var(--color-blue-4);
+	--input-error-focus-box-shadow-color: var(--color-red-2);
+
+
+	/***** font-size *****/
+	--font-size-mini: var(--font-size-1);
+	--font-size-small: var(--font-size-2);
+	--font-size-middle: var(--font-size-3);
+	--font-size-large: var(--font-size-4);
+
+	/* text */
+	--text-font-size: var(--font-size-mini);
+
+	/* title */
+	--title-font-size: var(--font-size-large);
+
+
+	/***** border-radius *****/
+	--border-radius-mini: var(--border-radius-1);
+	--border-radius-small: var(--border-radius-2);
+	--border-radius-middle: var(--border-radius-3);
+	--border-radius-large: var(--border-radius-4);
+
+	--border-radius: var(--border-radius-small);
+
+
+	/***** transition-duration *****/
+	--transition-duration-fast: var(--transition-duration-1);
+	--transition-duration-normal: var(--transition-duration-2);
+	--transition-duration-slow: var(--transition-duration-3);
+
+	--transition-duration: var(--transition-duration-fast);
+
+
+	/***** animation-duration *****/
+	--animation-duration-fast: var(--animation-duration-1);
+	--animation-duration-normal: var(--animation-duration-2);
+	--animation-duration-slow: var(--animation-duration-3);
+
+	--animation-duration: var(--animation-duration-fast);
+}

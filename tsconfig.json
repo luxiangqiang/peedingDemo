@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"strict": true,
+		"jsx": "preserve",
+		"sourceMap": true,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"baseUrl": ".",
+		"lib": ["esnext", "dom"],
+		"paths": {
+			"@": [
+				"src"
+			],
+			"km-icons": [
+				"../km-icons"
+			],
+			"km-styles": [
+				"../km-styles"
+			],
+			"km-utils": [
+				"../km-utils"
+			]
+		},
+	},
+	"include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue"],
+	"exclude": ["node_modules"]
+}

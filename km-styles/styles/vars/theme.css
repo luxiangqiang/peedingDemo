@@ -1,0 +1,23 @@
+
+:root[data-theme="theme"]{
+	--btn-plain-border-color: #f30606;
+	--btn-plain-color: #00ff00;
+
+	--btn-plain-hover-border-color: rgb(255, 115, 0);
+	--btn-plain-hover-color: rgb(255, 115, 0);
+	--body-bg-color: #cccccc;
+
+	/* 字体颜色 */
+
+	/* --text-color:rgb(35, 243, 8) ; */
+	--text-disabled-color: rgb(23, 19, 231);
+	--text-error-color: rgb(216, 21, 216);
+
+	/* 字体大小 */
+	--font-size-mini: 14px;
+	--font-size-small: 16px;
+	--font-size-large: 20px;
+}
+
+
+

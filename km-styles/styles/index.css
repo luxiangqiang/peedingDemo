@@ -1,0 +1,10 @@
+/* CSS 变量 */
+@import url("./vars/index.css");
+/* class */
+@import url("./applicationLayerClasses/index.css");
+
+body {
+	font-size: var(--text-font-size);
+	color: var(--text-color);
+	background-color: var(--body-bg-color);
+}

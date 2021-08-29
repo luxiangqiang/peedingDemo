@@ -1,0 +1,61 @@
+/**
+ * 原子层
+ */
+
+:root {
+	/***** color *****/
+	/* transparent */
+	--color-transparent: transparent;
+
+	/* black */
+	--color-black: #000000;
+	--color-black-1: rgba(0, 0, 0, 0.85);
+	--color-black-2: rgba(0, 0, 0, 0.45);
+	--color-black-3: rgba(0, 0, 0, 0.25);
+	--color-black-4: rgba(0, 0, 0, 0.15);
+	--color-black-5: rgba(0, 0, 0, 0.018);
+
+	/* white */
+	--color-white: #ffffff;
+	--color-white-1: #f5f7fa;
+	--color-white-2: #fafafa;
+
+	/* blue */
+	--color-blue-1: #1890ff;
+	--color-blue-2: #40a9ff;
+	--color-blue-3: #e6f7ff;
+	--color-blue-4: rgba(24, 144, 255, 0.2);
+
+	/* gray */
+	--color-gray-1: #d9d9d9;
+
+	/* red */
+	--color-red-1: #ff4d4f;
+	--color-red-2: rgba(255, 77, 79, 0.2);
+
+
+	/***** font-size *****/
+	--font-size-1: 12px;
+	--font-size-2: 14px;
+	--font-size-3: 16px;
+	--font-size-4: 18px;
+
+
+	/***** border-radius *****/
+	--border-radius-1: 2px;
+	--border-radius-2: 4px;
+	--border-radius-3: 6px;
+	--border-radius-4: 8px;
+
+
+	/***** transition-duration *****/
+	--transition-duration-1: 0.15s;
+	--transition-duration-2: 0.3s;
+	--transition-duration-3: 1s;
+
+
+	/***** animation-duration *****/
+	--animation-duration-1: 0.15s;
+	--animation-duration-2: 0.3s;
+	--animation-duration-3: 1s;
+}

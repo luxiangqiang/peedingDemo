@@ -1,0 +1,99 @@
+/**
+ * antd 样式覆盖
+ */
+
+/***** h1-h6 *****/
+h1, h2, h3, h4, h5, h6 {
+	color: var(--text-color);
+}
+
+
+/***** btn *****/
+/* btn-default */
+.ant-btn {
+	color: var(--btn-plain-color);
+	border-color: var(--btn-plain-border-color);
+	border-radius: var(--border-radius);
+	transition-property: color, background-color, border-color;
+	transition-duration: var(--transition-duration);
+}
+.ant-btn:hover,
+.ant-btn:focus,
+.ant-btn:active {
+	color: var(--btn-plain-hover-color);
+	border-color: var(--btn-plain-hover-border-color);
+}
+.ant-btn[disabled],
+.ant-btn[disabled]:hover,
+.ant-btn[disabled]:focus,
+.ant-btn[disabled]:active {
+	color: var(--btn-plain-disabled-color);
+	background-color: var(--btn-plain-disabled-bg-color);
+	border-color: var(--btn-plain-disabled-border-color);
+}
+
+/* btn-primary */
+.ant-btn-primary {
+	color: var(--btn-primary-color);
+	background-color: var(--btn-primary-bg-color);
+	border-color: var(--btn-primary-border-color);
+}
+.ant-btn-primary:hover,
+.ant-btn-primary:focus,
+.ant-btn-primary:active {
+	color: var(--btn-primary-hover-color);
+	background-color: var(--btn-primary-hover-bg-color);
+	border-color: var(--btn-primary-hover-border-color);
+}
+.ant-btn-primary[disabled],
+.ant-btn-primary[disabled]:hover,
+.ant-btn-primary[disabled]:focus,
+.ant-btn-primary[disabled]:active {
+	color: var(--btn-primary-disabled-color);
+	background-color: var(--btn-primary-disabled-bg-color);
+	border-color: var(--btn-primary-disabled-border-color);
+}
+
+/* btn-text */
+.ant-btn-text {
+	color: var(--btn-text-color);
+	background-color: var(--btn-text-bg-color);
+	border-color: var(--btn-text-border-color);
+}
+.ant-btn-text:hover,
+.ant-btn-text:focus,
+.ant-btn-text:active {
+	color: var(--btn-text-hover-color);
+	background-color: var(--btn-text-hover-bg-color);
+	border-color: var(--btn-text-hover-border-color);
+}
+.ant-btn-text[disabled],
+.ant-btn-text[disabled]:hover,
+.ant-btn-text[disabled]:focus,
+.ant-btn-text[disabled]:active {
+	color: var(--btn-text-disabled-color);
+	background-color: var(--btn-text-disabled-bg-color);
+	border-color: var(--btn-text-disabled-border-color);
+}
+
+/* btn-link */
+.ant-btn-link {
+	color: var(--btn-link-color);
+	background-color: var(--btn-link-bg-color);
+	border-color: var(--btn-link-border-color);
+}
+.ant-btn-link:hover,
+.ant-btn-link:focus,
+.ant-btn-link:active {
+	color: var(--btn-link-hover-color);
+	background-color: var(--btn-link-hover-bg-color);
+	border-color: var(--btn-link-hover-border-color);
+}
+.ant-btn-link[disabled],
+.ant-btn-link[disabled]:hover,
+.ant-btn-link[disabled]:focus,
+.ant-btn-link[disabled]:active {
+	color: var(--btn-link-disabled-color);
+	background-color: var(--btn-link-disabled-bg-color);
+	border-color: var(--btn-link-disabled-border-color);
+}
